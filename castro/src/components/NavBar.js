@@ -90,11 +90,11 @@ class NavBar extends Component{
                                     <div className="header-contact-info">
                                     <div className="header-info-single-item">
                                         <div className="header-info-single-item__icon">
-                                        <i className="zmdi zmdi-smartphone-android" />
+                                        <a href="tel:+27418800051"><i className="zmdi zmdi-smartphone-android" /></a>
                                         </div>
                                         <div className="header-info-single-item__content">
-                                        <h6 className="header-info-single-item__title">Phone</h6>
-                                        <p className="header-info-single-item__subtitle">98 9875 5968 54</p>
+                                        <h6 className="header-info-single-item__title"><a href="tel:+27418800051">Phone</a></h6>
+                                        <a href="tel:+27418800051" className="header-info-single-item__subtitle">+27 41 880 0051</a>
                                         </div>
                                     </div>
                                     <div className="header-info-single-item">
