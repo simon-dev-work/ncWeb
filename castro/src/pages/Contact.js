@@ -45,7 +45,7 @@ class Contact extends Component {
                   <div className="contact-map">
                     <iframe
                       title="google-map"
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d392436.93004030554!2d-105.13838587646829!3d39.7265847007123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1558429398879!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.6591842416615!2d25.52847327544309!3d-33.975598424597905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad1e89f2fd7f9%3A0x97be2dc201b32451!2sNevadaCloud!5e0!3m2!1sen!2sza!4v1763647298907!5m2!1sen!2sza"
                       allowFullScreen
                     ></iframe>
                   </div>
@@ -62,8 +62,7 @@ class Contact extends Component {
                         </span>
                         <span className="text">
                           <span>
-                            Stock Building, 125 Main Street 1st Lane, San
-                            Francisco, USA
+                           190 Circular Dr, Lorraine, Gqeberha, 6070
                           </span>
                         </span>
                       </li>
@@ -72,8 +71,8 @@ class Contact extends Component {
                           <i className="ion-ios-telephone-outline" />
                         </span>
                         <span className="text">
-                          <a href="tel:1234567890">(001) 24568 365 987</a>
-                          <a href="tel:1234567890">(001) 65897 569 784</a>
+                          <a href="tel:+27418800051">+27 41 880 0051</a>
+                          <a href="https://wa.me/+27795800964" target="blank">+27 79 580 0964</a>
                         </span>
                       </li>
                       <li>
@@ -81,8 +80,8 @@ class Contact extends Component {
                           <i className="ion-ios-email-outline" />
                         </span>
                         <span className="text">
-                          <a href="mailto:info@example.com">info@example.com</a>
-                          <a href="mailto:info@example.com">info@example.com</a>
+                          <a href="mailto:support@nevadacloud.com">support@nevadacloud.com</a>
+                          <a href="mailto:sales@nevadacloud.com">sales@nevadacloud.com</a>
                         </span>
                       </li>
                     </ul>

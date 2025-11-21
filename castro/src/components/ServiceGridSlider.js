@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SwiperSlider, { SwiperSlide } from "./swiper"
+import { BsLightbulb } from "react-icons/bs";
 
 class ServiceGridSlider extends Component{
     render(){
@@ -26,10 +27,12 @@ class ServiceGridSlider extends Component{
             }
         }
         let data = [
-            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'Land Minning', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Work Management', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Material Engineering', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Power and Energy', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'BsLightbulb', serviceTitle: 'Clinical Tools', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Digital Presence', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Practice Data Management', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Practice EHR', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Practice to Patient Communication', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+
         ];
 
         let DataList = data.map((val, i)=>{

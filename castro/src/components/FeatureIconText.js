@@ -4,7 +4,7 @@ class FeatureIconText extends Component {
     render() {
 
         let data = [
-            {featureIcon: "feature-4.png", featureTitle: "Land Mining", featureDescription: "Lorem ipsum dolor sit consect adipisicing elit, sed do eiusmo tempor incididu."},
+            {featureIcon: "feature-4.png", featureTitle: "Clinical Tools", featureDescription: "Lorem ipsum dolor sit consect adipisicing elit, sed do eiusmo tempor incididu."},
             {featureIcon: "feature-5.png", featureTitle: "Work Management", featureDescription: "Lorem ipsum dolor sit consect adipisicing elit, sed do eiusmo tempor incididu."},
             {featureIcon: "feature-6.png", featureTitle: "Material Engineering", featureDescription: "Lorem ipsum dolor sit consect adipisicing elit, sed do eiusmo tempor incididu."},
             {featureIcon: "feature-7.png", featureTitle: "Power & Energy", featureDescription: "Lorem ipsum dolor sit consect adipisicing elit, sed do eiusmo tempor incididu."}

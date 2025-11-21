@@ -67,27 +67,23 @@ class Footer extends Component {
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
                       <div className="footer-widget">
-                        <h4 className="footer-widget__title">USEFUL LINKS</h4>
+                        <h4 className="footer-widget__title">OUR SOLUTIONS</h4>
                         <ul className="footer-widget__navigation">
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>Ocumail</a>
                           </li>
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
-                              Company News
+                              Ocumarketing
                             </a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Projects</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>EyevaultEHR</a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Careers</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>LuminaBlue</a>
                           </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Contact Us
-                            </a>
-                          </li>
+                          
                         </ul>
                       </div>
                     </div>
